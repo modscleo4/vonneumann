@@ -61,7 +61,12 @@ client.on('message', async message => {
                 status: 'online',
             });
         }
+    } else if (message.author.id === '604700564504182814') {
+        message.react('1290138834004213770');
 
+        if (message.content === '$tu') {
+            message.react('785920500371161179');
+        }
     }
 });
 
